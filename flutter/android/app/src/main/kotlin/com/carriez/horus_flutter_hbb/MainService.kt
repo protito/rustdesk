@@ -1,4 +1,4 @@
-package com.carriez.flutter_hbb
+package com.carriez.horus_flutter_hbb
 
 import ffi.FFI
 
@@ -42,7 +42,6 @@ import java.util.concurrent.Executors
 import kotlin.concurrent.thread
 import org.json.JSONException
 import org.json.JSONObject
-import java.nio.ByteBuffer
 import kotlin.math.max
 import kotlin.math.min
 

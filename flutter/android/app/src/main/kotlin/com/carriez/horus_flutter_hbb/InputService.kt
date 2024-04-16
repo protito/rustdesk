@@ -1,4 +1,4 @@
-package com.carriez.flutter_hbb
+package com.carriez.horus_flutter_hbb
 
 /**
  * Handle remote input and dispatch android gesture
@@ -22,7 +22,6 @@ import android.graphics.Rect
 import android.accessibilityservice.AccessibilityServiceInfo
 import android.accessibilityservice.AccessibilityServiceInfo.FLAG_INPUT_METHOD_EDITOR
 import android.accessibilityservice.AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS
-import android.view.inputmethod.EditorInfo
 import androidx.annotation.RequiresApi
 import java.util.*
 import java.lang.Character

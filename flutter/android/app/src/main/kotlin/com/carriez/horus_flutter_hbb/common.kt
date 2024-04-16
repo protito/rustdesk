@@ -1,23 +1,16 @@
-package com.carriez.flutter_hbb
+package com.carriez.horus_flutter_hbb
 
-import android.Manifest.permission.*
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.media.AudioRecord
 import android.media.AudioRecord.READ_BLOCKING
-import android.media.MediaCodecList
-import android.media.MediaFormat
 import android.net.Uri
 import android.os.Build
 import android.os.Handler
 import android.os.Looper
-import android.os.PowerManager
-import android.provider.Settings
 import android.provider.Settings.*
 import androidx.annotation.RequiresApi
-import androidx.core.content.ContextCompat.getSystemService
-import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
 import java.nio.ByteBuffer
 import java.util.*
