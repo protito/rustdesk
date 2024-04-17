@@ -155,7 +155,7 @@ class WebHomePage extends StatelessWidget {
       // backgroundColor: MyTheme.grayBg,
       appBar: AppBar(
         centerTitle: true,
-        title: Text(bind.mainGetAppNameSync()),
+        title: Text("Horus Remote Desk"),
         actions: connectionPage.appBarActions,
       ),
       body: connectionPage,
