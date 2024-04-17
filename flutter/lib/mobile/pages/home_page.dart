@@ -142,7 +142,7 @@ class HomePageState extends State<HomePage> {
         ],
       );
     }
-    return "Horus Remote Desk";
+    return Text("Horus Remote Desk");
   }
 }
 
