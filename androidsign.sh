@@ -1,0 +1,1 @@
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore ../horus-android/firmaAndroid.jks -signedjar signed.aab app.aab key0
