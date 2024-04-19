@@ -195,7 +195,7 @@ jobs:
               flutter build apk --release --target-platform android-arm --split-per-abi
               mv build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk ../rustdesk-${{ env.VERSION }}-${{ matrix.job.arch }}.apk
               flutter build appbundle --release
-              mv build/app/outputs/bundle/release/app.aab ../app.aab
+              mv build/app/outputs/bundle/release/app-release.aab ../app.aab
             ;;
           esac
           popd
